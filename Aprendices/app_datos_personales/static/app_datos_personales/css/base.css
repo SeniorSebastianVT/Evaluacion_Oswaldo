@@ -1,0 +1,102 @@
+*{
+    background-color: #6f8f5d;
+}
+
+/* Header base */
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+}
+
+
+/* Nav base */
+
+.container-items {
+    padding: 20px;
+    background-color: #0f4e13;
+    border: 2px solid #000000;
+    border-radius: 2px;
+    margin: 3px;
+    width: 150px;
+    height: 350px;
+}
+
+.container-items h4 {
+    margin-bottom: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #fff;
+}
+
+.nav-pills .nav-link {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #000000;
+    border-radius: 0;
+    margin-bottom: 5px;
+}
+
+.nav-pills .nav-link.active {
+    background-color: #668554;
+    color: #ffffff;
+}
+
+
+/* Footer base */
+.footer {
+    background-color: rgba(202, 202, 202, 0.705);
+    text-align: end;
+}
+
+.icon{
+    left: 950px;
+
+}
+
+.bienvenida{
+    font-family: pompiere;
+    font-size: 25px;
+}
+
+.redes{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+}
+
+.footer a.link-contactanos {
+    color: #006609;
+    text-decoration: none;
+    margin-right: 130px;
+}
+
+.footer a.link-contactanos:hover {
+    color: #000000;
+}
+
+
+/*INICIO*/
+
+
+.title-inicio{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    bottom: 360px;
+    right: 500px;
+}
+
+.contenido{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    margin-right: 30px;
+    margin-left: 200px;
+}
+
+.img-principal{
+    position: absolute;
+    bottom: 100px;
+    width: 364px;
+    height: 147px;
+}

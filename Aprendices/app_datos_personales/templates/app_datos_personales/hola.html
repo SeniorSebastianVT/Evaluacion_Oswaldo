@@ -1,0 +1,43 @@
+
+
+
+{% load static %} 
+
+{% block content %}
+
+<div class="title-inicio">
+  <h3>Centro de Gestion de Aprendices SENA</h3>
+</div>
+
+<div class="contenido">
+  <img
+    src="{% static  'app_datos_personales' %}/img/sena.png"
+    class="img-thumbnail img-principal"
+    alt="..."
+  />
+
+  <div class="mision-vision">
+    <br />
+    <br />
+    <br />
+
+    <p>
+      <em
+        ><strong><h4>Misión</h4></strong></em
+      >
+      Impulsar la promoción social del trabajador, a través de su formación profesional integral, para hacer de él un ciudadano útil y responsable, poseedor de valores morales éticos, culturales y ecológicos.
+    </p>
+
+    <br>
+
+    <p>
+      <em
+        ><strong><h4>Visión</h4></strong></em
+      >
+      Para el año 2026, el Servicio Nacional de Aprendizaje - SENA estará a la vanguardia de la cualificación del talento humano, tanto a nivel nacional como internacional. Esto se logrará a través de la formación profesional integral, el empleo, el emprendimiento y el reconocimiento de aprendizajes previos.
+    </p>
+  </div>
+</div>
+
+
+{% endblock %}

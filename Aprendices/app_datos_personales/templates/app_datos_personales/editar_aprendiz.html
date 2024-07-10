@@ -1,0 +1,31 @@
+{% extends '/base.html' %}
+
+
+{% load static %}
+
+
+
+{% block content_1 %}
+
+<div class= "title-inicio">
+    <h3>Editar Aprendiz</h3>
+</div>
+
+{% endblock %}
+
+
+
+{% block content %}
+
+<div class="card">
+    <div class="card-header">Editar Aprendiz</div>
+    <div class="card-body">
+        <h4 class="card-title">Datos Aprendiz</h4>
+        
+        {% include "form_aprendiz.html" %}
+
+
+    </div>
+</div>
+
+{% endblock %}
